@@ -16,7 +16,7 @@ export const databaseProvider =
           host: 'localhost',
           port: 5432,
           username: 'postgres',
-          password: '965163234',
+          password: '',
           database: 'Movie Subscription System',
           entities: [UserAccount, SubscriptionDetails, Movie, Genre, CastMembers, View],
           logging: true,
